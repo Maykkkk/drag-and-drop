@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Drag and Drop Example</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <h1 class="page-heading">Drag and Drop Example</h1>
+  <div class="container-wrapper">
+    <div class="container" id="container1">
+      <div class="item" draggable="true">
+        <img src="C:\Users\Lenovo\Desktop\Frontend_task\images\coder-sign-icon-glasses-icon-programmer-symbol-long-shadow-vector-84917910.webp" alt="Image">
+      </div>
+      <div class="item" draggable="true">
+        <span>Hello Developers!</span>
+      </div>
+      <div class="item" draggable="true">
+        <i class="fas fa-star"></i>
+      </div>
+      <div class="item" draggable="true">Item 1</div>
+      <div class="item" draggable="true">Item 2</div>
+      <div class="item" draggable="true">Item 3</div>
+    </div>
+
+    <div class="container" id="container2"></div>
+  </div>
+
+  <p class="success-message" id="successMessage" style="display: none;">Item successfully dropped!</p>
+
+  <button onclick="reset()">Reset</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
