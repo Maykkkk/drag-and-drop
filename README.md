@@ -1,5 +1,5 @@
 # drag-and-drop
-Certainly! Here's an example README.md file for your drag-and-drop project:
+Here's an example README.md file for drag-and-drop project:
 
 ```markdown
 # Drag and Drop Example
